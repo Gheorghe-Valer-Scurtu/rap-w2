@@ -21,7 +21,7 @@ class zcl_w2_data_gen_ac implementation.
           lt_libros    type table of zw2_libros.
 
 ******** zw2_acc_categ ********
-    "fill internal table
+    "fill internal table change
     lt_acc_categ = value #(
     ( bi_categ ='A' tipo_acceso ='1' )
     ( bi_categ ='B' tipo_acceso ='1' )
