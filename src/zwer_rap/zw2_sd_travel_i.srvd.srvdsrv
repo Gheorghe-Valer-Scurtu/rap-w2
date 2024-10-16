@@ -1,0 +1,6 @@
+@EndUserText.label: 'Travel - Service Definition'
+define service ZW2_SD_TRAVEL_I {
+  expose ZW2_C_TRAVEL_I  as Travel;
+  expose ZW2_C_BOOKING_I as Booking;
+  expose ZW2_C_BKSUPPL_I as BookingSupplement;
+}
