@@ -23,6 +23,7 @@ define root view entity ZW2_R_TRAVEL_I
       booking_fee           as BookingFee,
       @Semantics.amount.currencyCode : 'CurrencyCode'
       total_price           as TotalPrice,
+
       currency_code         as CurrencyCode,
 
       description           as Description,
@@ -47,5 +48,6 @@ define root view entity ZW2_R_TRAVEL_I
       _Agency,
       _Customer,
       _OverallStatus,
-      _Currency
+      _Currency      
+      
 }

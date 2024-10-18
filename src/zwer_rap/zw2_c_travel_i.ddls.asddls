@@ -12,7 +12,7 @@ define root view entity ZW2_C_TRAVEL_I
   key TravelUUID,
 
       @Search.defaultSearchElement: true
-      TravelID,
+      TravelID, 
 
       @Search.defaultSearchElement: true
       @ObjectModel.text.element: [ 'AgencyName' ]
@@ -26,7 +26,8 @@ define root view entity ZW2_C_TRAVEL_I
       @ObjectModel.text.element: [ 'CustomerName' ]
       @Consumption.valueHelpDefinition: [{ entity: { name: '/DMO/I_Customer_StdVH',
                                                      element: 'CustomerID'},
-                                          useForValidation: true }]
+                                          useForValidation: true 
+                                          }]
       CustomerID,
       _Customer.LastName as CustomerName,
       
